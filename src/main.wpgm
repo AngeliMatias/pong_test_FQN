@@ -1,0 +1,8 @@
+import wollok.game.*
+import pongManager.*
+
+
+program juego { 	
+	pong.pelotaExiste()
+	game.start()
+}
