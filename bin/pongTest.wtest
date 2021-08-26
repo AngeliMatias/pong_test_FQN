@@ -1,3 +1,11 @@
 import pongManager.*
 
-test "Prueba play" { assert.that(pong.pelotaExiste()) }
+describe "Se debe distinguir entre un objeto y un archivo con el mismo nombre" {
+	test "El objeto no está dentro del archivo con su mismo nombre" { 
+		assert.that(pong.pelotaExiste())
+	}
+
+	test "El objeto está dentro del archivo con el mismo nombre" { 
+		assert.that(pongManager.managerExiste())
+	}
+}

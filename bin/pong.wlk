@@ -1,3 +1,1 @@
-object pelota {
-	method existe() = true
-}
+object pelota {	method existe() = true }
