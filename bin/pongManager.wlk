@@ -1,5 +1,10 @@
 import pong.*
 
-object pong { method pelotaExiste() = pelota.existe() }
+object pong { 
+	method pelotaExiste() = pelota.existe()
+	method existe() = true
+}
 
-object pongManager { method managerExiste() = true }
+object pongManager { 
+	method pongExiste() = pong.existe()
+}

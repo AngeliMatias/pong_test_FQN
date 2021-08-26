@@ -6,6 +6,6 @@ describe "Se debe distinguir entre un objeto y un archivo con el mismo nombre" {
 	}
 
 	test "El objeto está dentro del archivo con el mismo nombre" { 
-		assert.that(pongManager.managerExiste())
+		assert.that(pongManager.pongExiste())
 	}
 }
